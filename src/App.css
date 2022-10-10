@@ -1,0 +1,115 @@
+body{
+    background-color: #1a2233;
+  }
+  .App {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+  }
+  .project-container{
+    background-color:transparent;
+    padding-top: 60px;
+    width: 80vh;
+  }
+  .sub-container{
+    background-color:#2d3442;
+    border: 1px white solid;
+  }
+  .project-heading{
+    color: #E4E8F1;
+    font-weight: 500;
+  }
+  .project-header{
+    display: flex;
+    padding: 10px;
+  }
+   /* =============================== input section */
+  .project-input{
+    padding-left: 10px;
+    font-weight: 700;
+    width: 50vh;
+    border: none;
+  }
+  .add-button{
+    width: 30vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    background-color: rgb(118, 214, 118);
+    border: none;
+  }
+  .add-button:hover{
+    background-color: rgb(143, 217, 219);
+  }
+   /* =============================== middle*/
+  .middlepart{
+    padding: 1px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: transparent;
+    margin-bottom: 20px;
+    border: none;
+  }
+   /* =============================== container that holds h3 and button formed when item is added*/
+  .ouputcontainer{
+    background-color: rgb(121, 118, 119);
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 75vh;
+    border: black 2px solid;
+    margin-bottom: 10px;
+  }
+  .btn-container{
+    display: flex;
+    width: 25vh;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 10px;
+  }
+   /* =============================== added item (_h1*/
+  .addeditem{
+    color: #e8ebec;
+    font-weight: 500;
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .edt-delete-btn{
+    height: 5vh;
+    width: 70px;
+   margin-bottom: 10px;
+  }
+  #edit:hover{
+  background-color: green;
+  color: white;
+  }
+  .edt-delete-btn:hover{
+    background-color: red;
+    color: white;
+  }
+  .clearall{
+    width: 30vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    background-color: rgb(160, 28, 28);
+    border: none;
+  }
+  .clearall:hover{
+    background-color: rgb(68, 60, 60);
+  }
+  .endpart{
+    margin: 10px;
+    padding: 10px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: pink;
+  }
